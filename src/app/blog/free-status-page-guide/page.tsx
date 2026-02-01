@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import EmailCapture from '@/components/EmailCapture'
 
 export const metadata: Metadata = {
   title: 'The Complete Guide to Free Status Pages in 2026',
@@ -95,6 +96,13 @@ export default function FreeStatusPageGuide() {
         <p className="text-text-muted">
           StatusOwl makes it dead simple to get started. Create your free status page today and give your users the transparency they deserve.
         </p>
+
+        <EmailCapture
+          variant="inline"
+          title="Enjoyed this guide?"
+          description="Get more status page tips and uptime monitoring insights in your inbox."
+          source="blog-free-status-page-guide"
+        />
 
         <div className="mt-10 p-6 bg-accent/10 border border-accent/20 rounded-xl text-center">
           <h3 className="text-xl font-bold text-white mb-2">Ready to create your free status page?</h3>

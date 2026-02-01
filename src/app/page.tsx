@@ -1,4 +1,45 @@
 import Link from 'next/link'
+import EmailCapture from '@/components/EmailCapture'
+
+const faqs = [
+  {
+    question: 'What is a status page and why do I need one?',
+    answer: 'A status page is a public page that shows the real-time health of your services. It builds trust with users by being transparent about uptime, incidents, and maintenance. StatusOwl makes creating one effortless.',
+  },
+  {
+    question: 'How does StatusOwl compare to Statuspage.io?',
+    answer: 'StatusOwl offers the same core features — uptime monitoring, incident management, and custom domains — at 80% less cost. Our free tier includes everything you need to get started, vs Statuspage.io starting at $29/month.',
+  },
+  {
+    question: 'How often does StatusOwl check uptime?',
+    answer: 'Depending on your plan: every 5 minutes (Free), every 60 seconds (Pro), or every 30 seconds (Business). Checks run from multiple regions for accuracy.',
+  },
+  {
+    question: 'Can I use my own domain for the status page?',
+    answer: 'Yes! Pro and Business plans support custom domains (e.g., status.yourapp.com). Just add a CNAME record and StatusOwl handles the rest, including SSL.',
+  },
+  {
+    question: 'Is there a free tier?',
+    answer: 'Absolutely. The free plan includes 1 status page, 5 services, email notifications, and 7-day history. No credit card required, free forever.',
+  },
+  {
+    question: 'How do I set up incident management?',
+    answer: 'StatusOwl provides a simple dashboard to create, update, and resolve incidents. Your users see real-time updates on your status page. Notifications go out via email, Slack, or webhooks.',
+  },
+]
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+}
 
 const features = [
   {
@@ -66,6 +107,10 @@ const pricingTiers = [
 export default function HomePage() {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-accent/5 to-transparent" />
@@ -192,6 +237,29 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Email Capture */}
+      <EmailCapture
+        title="Stay Ahead on Status Page Best Practices"
+        description="Get tips on uptime monitoring, incident communication, and building user trust. Plus early access to new StatusOwl features."
+        source="homepage"
+      />
+
+      {/* FAQ */}
+      <section id="faq" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">Frequently Asked Questions</h2>
+          <p className="mt-4 text-lg text-text-muted">Everything you need to know about StatusOwl.</p>
+        </div>
+        <div className="space-y-6">
+          {faqs.map((faq, i) => (
+            <div key={i} className="bg-surface border border-border rounded-xl p-6">
+              <h3 className="text-lg font-semibold text-white mb-2">{faq.question}</h3>
+              <p className="text-text-muted leading-relaxed">{faq.answer}</p>
             </div>
           ))}
         </div>

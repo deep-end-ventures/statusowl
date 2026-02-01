@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://statusowl.deependventures.com'),
   title: {
     default: 'StatusOwl — Beautiful Status Pages & Uptime Monitoring',
     template: '%s | StatusOwl',
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://statusowl.vercel.app',
+    url: 'https://statusowl.deependventures.com',
     siteName: 'StatusOwl',
     title: 'StatusOwl — Beautiful Status Pages & Uptime Monitoring',
     description: 'Create beautiful public status pages with built-in uptime monitoring. Free tier available.',
@@ -41,7 +42,7 @@ const jsonLd = {
   applicationCategory: 'WebApplication',
   operatingSystem: 'Any',
   description: 'Beautiful status pages and uptime monitoring for SaaS teams',
-  url: 'https://statusowl.vercel.app',
+  url: 'https://statusowl.deependventures.com',
   offers: [
     { '@type': 'Offer', price: '0', priceCurrency: 'USD', name: 'Free' },
     { '@type': 'Offer', price: '9', priceCurrency: 'USD', name: 'Pro' },
@@ -58,7 +59,7 @@ const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'StatusOwl',
-  url: 'https://statusowl.vercel.app',
+  url: 'https://statusowl.deependventures.com',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

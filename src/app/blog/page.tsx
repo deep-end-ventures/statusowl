@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import EmailCapture from '@/components/EmailCapture'
 
 export const metadata: Metadata = {
   title: 'Blog',
@@ -42,6 +43,13 @@ export default function BlogPage() {
           Tips, guides, and best practices for status pages and uptime monitoring.
         </p>
       </div>
+
+      <EmailCapture
+        variant="card"
+        title="Get Status Page Tips Delivered"
+        description="Best practices for uptime monitoring and incident communication, straight to your inbox."
+        source="blog-listing"
+      />
 
       <div className="space-y-8">
         {posts.map((post) => (

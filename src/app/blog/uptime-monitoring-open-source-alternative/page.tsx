@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import EmailCapture from '@/components/EmailCapture'
 
 export const metadata: Metadata = {
   title: 'Best Open Source Alternatives for Uptime Monitoring in 2026',
@@ -157,6 +158,13 @@ export default function UptimeMonitoringAlternatives() {
         <p className="text-text-muted">
           The days of paying $100+/month for basic uptime monitoring and status pages are over. Pick the tool that fits your needs and get monitoring today.
         </p>
+
+        <EmailCapture
+          variant="inline"
+          title="Want more monitoring insights?"
+          description="Get uptime monitoring tips and open source tool comparisons in your inbox."
+          source="blog-uptime-monitoring-alternatives"
+        />
 
         <div className="mt-10 p-6 bg-accent/10 border border-accent/20 rounded-xl text-center">
           <h3 className="text-xl font-bold text-white mb-2">Try StatusOwl free — no infrastructure needed</h3>

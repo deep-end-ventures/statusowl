@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import EmailCapture from '@/components/EmailCapture'
 
 export const metadata: Metadata = {
   title: 'Why Every SaaS Needs a Status Page (And How to Set One Up)',
@@ -102,6 +103,13 @@ export default function StatusPageForSaaS() {
         <p className="text-text-muted">
           The only question is: why haven&apos;t you set one up yet? With tools like StatusOwl offering generous free plans, there&apos;s zero reason not to have a professional status page today.
         </p>
+
+        <EmailCapture
+          variant="inline"
+          title="Liked this article?"
+          description="Get more SaaS best practices and status page tips delivered to your inbox."
+          source="blog-status-page-for-saas"
+        />
 
         <div className="mt-10 p-6 bg-accent/10 border border-accent/20 rounded-xl text-center">
           <h3 className="text-xl font-bold text-white mb-2">Set up your SaaS status page in 60 seconds</h3>
