@@ -31,12 +31,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-white font-semibold mb-4">Resources</h4>
+            <h4 className="text-white font-semibold mb-4">Free Tools</h4>
             <ul className="space-y-2 text-sm">
+              <li><Link href="/free-status-page" className="text-text-muted hover:text-white transition-colors">Free Status Page</Link></li>
+              <li><Link href="/uptime-monitoring-tool" className="text-text-muted hover:text-white transition-colors">Uptime Monitoring Tool</Link></li>
+              <li><Link href="/incident-management" className="text-text-muted hover:text-white transition-colors">Incident Management</Link></li>
               <li><Link href="/blog" className="text-text-muted hover:text-white transition-colors">Blog</Link></li>
-              <li><Link href="/blog/free-status-page-guide" className="text-text-muted hover:text-white transition-colors">Free Status Page Guide</Link></li>
-              <li><Link href="/blog/status-page-for-saas" className="text-text-muted hover:text-white transition-colors">Status Pages for SaaS</Link></li>
-              <li><Link href="/blog/uptime-monitoring-open-source-alternative" className="text-text-muted hover:text-white transition-colors">Open Source Alternatives</Link></li>
             </ul>
           </div>
 
