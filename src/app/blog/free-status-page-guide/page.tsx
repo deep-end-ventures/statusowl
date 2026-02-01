@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'The Complete Guide to Free Status Pages in 2025',
+  title: 'The Complete Guide to Free Status Pages in 2026',
   description: 'Everything you need to know about setting up a free status page for your SaaS product. Compare tools, features, and learn how to get started in minutes.',
-  keywords: ['free status page', 'status page tool', 'free uptime monitoring', 'status page 2025'],
+  keywords: ['free status page', 'status page tool', 'free uptime monitoring', 'status page 2026'],
 }
 
 export default function FreeStatusPageGuide() {
@@ -17,12 +17,12 @@ export default function FreeStatusPageGuide() {
       <header className="mb-10">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs font-medium bg-accent/10 text-accent-light px-2.5 py-1 rounded-full">Guide</span>
-          <span className="text-text-dim text-sm">January 28, 2025</span>
+          <span className="text-text-dim text-sm">January 28, 2026</span>
           <span className="text-text-dim text-sm">·</span>
           <span className="text-text-dim text-sm">8 min read</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-white leading-tight">
-          The Complete Guide to Free Status Pages in 2025
+          The Complete Guide to Free Status Pages in 2026
         </h1>
         <p className="mt-4 text-lg text-text-muted">
           Your users deserve to know when something&apos;s down — and you deserve a status page that doesn&apos;t cost a fortune.
@@ -49,7 +49,7 @@ export default function FreeStatusPageGuide() {
         </ul>
 
         <h2 className="text-2xl font-bold text-white mt-10 mb-4">Top Free Status Page Tools Compared</h2>
-        <p className="text-text-muted">Here&apos;s how the leading free options stack up in 2025:</p>
+        <p className="text-text-muted">Here&apos;s how the leading free options stack up in 2026:</p>
 
         <div className="bg-surface border border-border rounded-lg p-4 space-y-4 my-6">
           <div className="border-b border-border pb-4">

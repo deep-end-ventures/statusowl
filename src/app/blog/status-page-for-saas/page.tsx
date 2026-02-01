@@ -17,7 +17,7 @@ export default function StatusPageForSaaS() {
       <header className="mb-10">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs font-medium bg-accent/10 text-accent-light px-2.5 py-1 rounded-full">Best Practices</span>
-          <span className="text-text-dim text-sm">January 25, 2025</span>
+          <span className="text-text-dim text-sm">January 25, 2026</span>
           <span className="text-text-dim text-sm">·</span>
           <span className="text-text-dim text-sm">6 min read</span>
         </div>

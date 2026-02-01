@@ -7,7 +7,7 @@ export const demoServices: Service[] = [
     description: 'Core API endpoints',
     status: 'operational',
     uptime_percentage: 99.98,
-    created_at: '2025-01-01T00:00:00Z',
+    created_at: '2026-01-01T00:00:00Z',
     updated_at: new Date().toISOString(),
   },
   {
@@ -16,7 +16,7 @@ export const demoServices: Service[] = [
     description: 'Main web dashboard and UI',
     status: 'operational',
     uptime_percentage: 99.95,
-    created_at: '2025-01-01T00:00:00Z',
+    created_at: '2026-01-01T00:00:00Z',
     updated_at: new Date().toISOString(),
   },
   {
@@ -25,7 +25,7 @@ export const demoServices: Service[] = [
     description: 'Primary database cluster',
     status: 'operational',
     uptime_percentage: 99.99,
-    created_at: '2025-01-01T00:00:00Z',
+    created_at: '2026-01-01T00:00:00Z',
     updated_at: new Date().toISOString(),
   },
   {
@@ -34,7 +34,7 @@ export const demoServices: Service[] = [
     description: 'Content delivery network',
     status: 'degraded',
     uptime_percentage: 99.87,
-    created_at: '2025-01-01T00:00:00Z',
+    created_at: '2026-01-01T00:00:00Z',
     updated_at: new Date().toISOString(),
   },
   {
@@ -43,7 +43,7 @@ export const demoServices: Service[] = [
     description: 'Transactional email delivery',
     status: 'operational',
     uptime_percentage: 99.92,
-    created_at: '2025-01-01T00:00:00Z',
+    created_at: '2026-01-01T00:00:00Z',
     updated_at: new Date().toISOString(),
   },
 ]

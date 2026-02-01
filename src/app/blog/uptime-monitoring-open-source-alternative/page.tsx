@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Best Open Source Alternatives for Uptime Monitoring in 2025',
+  title: 'Best Open Source Alternatives for Uptime Monitoring in 2026',
   description: 'Compare the top open source and affordable alternatives to expensive enterprise uptime monitoring tools. Uptime Kuma, Gatus, StatusOwl, and more.',
-  keywords: ['uptime monitoring open source alternative', 'open source uptime monitoring', 'free uptime monitoring', 'uptime monitoring 2025', 'Statuspage alternative'],
+  keywords: ['uptime monitoring open source alternative', 'open source uptime monitoring', 'free uptime monitoring', 'uptime monitoring 2026', 'Statuspage alternative'],
 }
 
 export default function UptimeMonitoringAlternatives() {
@@ -17,12 +17,12 @@ export default function UptimeMonitoringAlternatives() {
       <header className="mb-10">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs font-medium bg-accent/10 text-accent-light px-2.5 py-1 rounded-full">Comparison</span>
-          <span className="text-text-dim text-sm">January 22, 2025</span>
+          <span className="text-text-dim text-sm">January 22, 2026</span>
           <span className="text-text-dim text-sm">·</span>
           <span className="text-text-dim text-sm">10 min read</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold text-white leading-tight">
-          Best Open Source Alternatives for Uptime Monitoring in 2025
+          Best Open Source Alternatives for Uptime Monitoring in 2026
         </h1>
         <p className="mt-4 text-lg text-text-muted">
           Enterprise uptime monitoring tools charge $100-500+/month. Here are the best <strong className="text-white">open source alternatives for uptime monitoring</strong> that won&apos;t break the bank.
