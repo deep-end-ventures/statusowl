@@ -22,11 +22,20 @@ export const metadata: Metadata = {
     siteName: 'StatusOwl',
     title: 'StatusOwl — Beautiful Status Pages & Uptime Monitoring',
     description: 'Create beautiful public status pages with built-in uptime monitoring. Free tier available.',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'StatusOwl — Beautiful Status Pages & Uptime Monitoring',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'StatusOwl — Beautiful Status Pages & Uptime Monitoring',
     description: 'Create beautiful public status pages with built-in uptime monitoring. Free tier available.',
+    images: ['/opengraph-image'],
   },
   robots: {
     index: true,
